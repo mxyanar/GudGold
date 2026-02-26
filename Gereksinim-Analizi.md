@@ -10,6 +10,3 @@
 9. Kayıp İlanları - (Mehmet Yanar) 
 10. Bulunan İlanları - (Mehmet Yanar) 
 11. Haberler - (Mehmet Yanar) 
-
-# Gereksinimlerin Dağılımları
-1. [Mehmet-Yanar'ın-Gereksinimleri](Mehmet-Yanar'ın-Gereksinimleri.md)
