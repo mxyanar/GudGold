@@ -1,20 +1,28 @@
-# PatiRota 
+# GudGold 
 **Proje Tanımı:**
-Temel amacımız sahipsiz, sahiplendirilmek istenen, kaybolan hayvanların sahipleriyle hiçbir karşılık gözetmeksizin kavuşmalarını sağlamaktır. Sitemize hoş geldiniz, size hizmet vermek için sabırsızlanıyoruz.
+GudGold isimli online kuyumculuk sitemiz, kullanıcılarımıza güvenli ve pratik bir alışveriş deneyimi sunmak amacıyla tasarlanmıştır. Sitemizde gram altın, çeyrek altın ve diğer altın ürünlerini güncel fiyatlarla inceleyebilir ve kolayca satın alabilirsiniz.
+Kullanıcı dostu arayüzümüz sayesinde ürünlere hızlıca ulaşabilir, güvenli ödeme sistemi ile işlemlerinizi sorunsuz şekilde tamamlayabilirsiniz. Amacımız, kuyumculuk hizmetini dijital ortama taşıyarak müşterilerimize güvenilir, hızlı ve şeffaf bir alışveriş imkânı sunmaktır.
+GudGold, değerli yatırımlarınız ve alışverişleriniz için modern ve güvenli bir online kuyumcu deneyimi sunar.
 
-**Proje Kategorisi:** Sosyal Medya
+**Proje Kategorisi:** E-Ticaret
 
-**Referans Uygulama:** www.patibuldular.com
+**Referans Uygulama:** [altinplaza.com](https://www.altinplaza.com/))
 
 **Uygulama Adresi:** www.patibuldular.com
 
-**Grup Adı:** Mexmoy
+**Grup Adı:** 
+Mexmoy
 
-**Proje Ekibi:** Mehmet Yanar
+**Proje Ekibi:** 
+Mehmet Yanar
+
+## Dokümantasyon
+Proje dokümantasyonuna aşağıdaki linklerden erişebilirsiniz:
 
 1. [Gereksinim Analizi](Gereksinim-Analizi.md)
-2. [Durum Diyagramı](Durum-Diyagramı.md)
-3. [Durum Senaryoları](Durum-Senaryoları.md)
-4. [Front-End](Front-End.md)
-5. [Back-End](Back-End.md)
-6. [Video Sunum](Sunum.md)
+2. [REST API Tasarımı](API-Tasarimi.md)
+3. [REST API](Rest-API.md)
+4. [Web Front-End](WebFrontEnd.md)
+5. [Mobil Front-End](MobilFrontEnd.md)
+6. [Mobil Backend](MobilBackEnd.md)
+7. [Video Sunum](Sunum.md)
