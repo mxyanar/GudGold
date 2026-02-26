@@ -6,9 +6,7 @@ GudGold, değerli yatırımlarınız ve alışverişleriniz için modern ve güv
 
 **Proje Kategorisi:** E-Ticaret
 
-**Referans Uygulama:** [altinplaza.com](https://www.altinplaza.com/))
-
-**Uygulama Adresi:** www.patibuldular.com
+**Referans Uygulama:** [altinplaza.com](https://www.altinplaza.com/)
 
 **Grup Adı:** 
 Mexmoy
