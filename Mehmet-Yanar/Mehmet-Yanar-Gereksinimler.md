@@ -1,4 +1,4 @@
-   ## Kullanıcı İşlemleri
+## Kullanıcı İşlemleri
 
 1. **Kullanıcı Kayıt Olma**
 - **API Metodu:** `POST /customers/register`  
@@ -20,7 +20,7 @@
 - **API Metodu:** `DELETE /customers/{customerId}`  
 - **Açıklama:** Kullanıcı hesabını kalıcı olarak siler.  
 
-   ## Genel Sistem İşlemleri
+## Genel Sistem İşlemleri
    
 7. **Ürün Detay Görüntüleme**
 - **API Metodu:** `GET /products/{productId}`
@@ -46,7 +46,7 @@
 - **API Metodu:** `DELETE /cart/{itemId}`
 - **Açıklama:** Sepetteki belirli bir ürünü sepetten kaldırır. Kullanıcı girişi yapılmadan da kullanılabilir.
 
-   ## Yönetici İşlemleri
+## Yönetici İşlemleri
 
 13. **Ürün Güncelleme**
 - **API Metodu:** `PUT /admin/products/{productId}`
