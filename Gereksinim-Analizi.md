@@ -36,7 +36,7 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
    - **Açıklama:** Kullanıcının başlık/anahtar kelimeye göre içerik aramasını sağlar.
 
 9. **Ürün Filtreleme**
-     - **API Metodu:** `GET /products?filter=…`
+   - **API Metodu:** `GET /products?filter=…`
    - **Açıklama:** Ürünlerin kategori, fiyat aralığı veya isim gibi kriterlere göre filtrelenmesini sağlar. Kullanıcılar aradıkları ürünü daha hızlı bulabilir.
 
 10. **Sepete Ürün Ekleme**
