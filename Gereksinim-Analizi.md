@@ -37,7 +37,7 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
 
 9. **Ürün Filtreleme**
      - **API Metodu:** `GET /products?filter=…`
-     - **Açıklama:** Ürünlerin kategori, fiyat aralığı veya isim gibi kriterlere göre filtrelenmesini sağlar. Kullanıcılar aradıkları ürünü daha hızlı bulabilir.
+   - **Açıklama:** Ürünlerin kategori, fiyat aralığı veya isim gibi kriterlere göre filtrelenmesini sağlar. Kullanıcılar aradıkları ürünü daha hızlı bulabilir.
 
 10. **Sepete Ürün Ekleme**
    - **API Metodu:** `POST /cart`
@@ -54,7 +54,7 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
    ## Yönetici İşlemleri
 
 13. **Ürün Güncelleme**
-   - **API Metodu:** ` PUT /admin/products/{productId}`
+   - **API Metodu:** `PUT /admin/products/{productId}`
    - **Açıklama:** Sistemde mevcut bir ürünün bilgilerini düzenlemek için kullanılır.
 
 14. **Ürün Ekleme**
