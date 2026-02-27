@@ -10,18 +10,18 @@
 
 ## Genel Sistem İşlemleri
    
-7. **Ürün Detay Görüntüleme**
-8. **Ürün Arama**
-9. **Ürün Filtreleme**
-10. **Sepete Ürün Ekleme**
-11. **Sepet Listeleme**
-12. **Sepetten Ürün Silme**
+6. **Ürün Detay Görüntüleme**
+7. **Ürün Arama**
+8. **Ürün Filtreleme**
+9. **Sepete Ürün Ekleme**
+10. **Sepet Listeleme**
+11. **Sepetten Ürün Silme**
 
 ## Yönetici İşlemleri
 
-13. **Ürün Güncelleme**
-14. **Ürün Ekleme**
-15. **Ürün Silme**
+12. **Ürün Güncelleme**
+13. **Ürün Ekleme**
+14. **Ürün Silme**
 
 # Gereksinim Dağılımları
 
