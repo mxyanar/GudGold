@@ -32,8 +32,8 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
    - **Açıklama:**  Seçilen bir ürünün detaylı bilgilerini görüntüler.
 
 8. **Ürün Arama**
-   - **API Metodu:** `GET /contents/search?q=...`  
-   - **Açıklama:** Kullanıcının başlık/anahtar kelimeye göre içerik aramasını sağlar.
+- **API Metodu:** `GET /contents/search?q=...`
+- **Açıklama:** Kullanıcının başlık/anahtar kelimeye göre içerik aramasını sağlar.
 
 9. **Ürün Filtreleme**
    **API Metodu:** `GET /products?filter=…`
