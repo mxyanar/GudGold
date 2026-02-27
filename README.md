@@ -1,5 +1,6 @@
 # GudGold 
 
+---
 
 ![Ürün Tanıtım Görseli](GudGold.png)
 
