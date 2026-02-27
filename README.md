@@ -11,9 +11,30 @@ Kullanıcı dostu arayüzümüz sayesinde ürünlere hızlıca ulaşabilir, güv
 Amacımız, kuyumculuk hizmetini dijital ortama taşıyarak müşterilerimize güvenilir, hızlı ve şeffaf bir alışveriş imkânı sunmaktır.
 Değerli yatırımlarınız ve alışverişleriniz için teknolojik ve güvenli bir online kuyumcu deneyimi sunar.
 
+---
+
 **Proje Kategorisi:** E-Ticaret
 
+---
+
 **Referans Uygulama:** [altinplaza.com](https://www.altinplaza.com/)
+
+---
+
+## Proje Linkleri
+
+- **REST API Adresi:** 
+- **Web Frontend Adresi:**
+
+## Proje Ekibi
+
+**Grup Adı:** 
+- Mexmoy
+
+**Ekip Üyeleri:** 
+- Mehmet Yanar
+
+---
 
 ## Dokümantasyon
 Proje dokümantasyonuna aşağıdaki linklerden erişebilirsiniz:
