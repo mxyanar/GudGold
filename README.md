@@ -1,18 +1,19 @@
 # GudGold 
+
+
+![Ürün Tanıtım Görseli](GudGold.png)
+
 **Proje Tanımı:**
-GudGold isimli online kuyumculuk sitemiz, kullanıcılarımıza güvenli ve pratik bir alışveriş deneyimi sunmak amacıyla tasarlanmıştır. Sitemizde gram altın, çeyrek altın ve diğer altın ürünlerini güncel fiyatlarla inceleyebilir ve kolayca satın alabilirsiniz.
-Kullanıcı dostu arayüzümüz sayesinde ürünlere hızlıca ulaşabilir, güvenli sistemimiz ile işlemlerinizi sorunsuz şekilde tamamlayabilirsiniz. Amacımız, kuyumculuk hizmetini dijital ortama taşıyarak müşterilerimize güvenilir, hızlı ve şeffaf bir alışveriş imkânı sunmaktır.
-GudGold, değerli yatırımlarınız ve alışverişleriniz için teknolojik ve güvenli bir online kuyumcu deneyimi sunar.
+
+**GudGold**,  isimli online kuyumculuk sitemiz, kullanıcılarımıza güvenli ve pratik bir alışveriş deneyimi sunmak amacıyla tasarlanmıştır. 
+Sitemizde gram altın, çeyrek altın ve diğer altın ürünlerini güncel fiyatlarla inceleyebilir ve kolayca satın alabilirsiniz.
+Kullanıcı dostu arayüzümüz sayesinde ürünlere hızlıca ulaşabilir, güvenli sistemimiz ile işlemlerinizi sorunsuz şekilde tamamlayabilirsiniz. 
+Amacımız, kuyumculuk hizmetini dijital ortama taşıyarak müşterilerimize güvenilir, hızlı ve şeffaf bir alışveriş imkânı sunmaktır.
+Değerli yatırımlarınız ve alışverişleriniz için teknolojik ve güvenli bir online kuyumcu deneyimi sunar.
 
 **Proje Kategorisi:** E-Ticaret
 
 **Referans Uygulama:** [altinplaza.com](https://www.altinplaza.com/)
-
-**Grup Adı:** 
-Mexmoy
-
-**Proje Ekibi:** 
-Mehmet Yanar
 
 ## Dokümantasyon
 Proje dokümantasyonuna aşağıdaki linklerden erişebilirsiniz:
