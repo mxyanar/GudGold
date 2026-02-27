@@ -3,7 +3,7 @@
 ## Kullanıcı İşlemleri
 
 1. **Kullanıcı Kayıt Olma**
-2. **Kullanıcı Giriş**
+2. **Kullanıcı Giriş Yapma**
 3. **Kullanıcı Bilgileri Görüntüleme**
 4. **Kullanıcı Bilgileri Güncelleme**
 5. **Kullanıcı Kaydı Silme**
