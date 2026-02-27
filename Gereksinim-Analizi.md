@@ -28,4 +28,4 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
 
 # Gereksinim Dağılımları
 
-1. [Mehmet Yanar'ın Gereksinimleri](Mehmet-Yanar/Mehmet-Yanar-Gereksinimler.md)
+1. [Mehmet Yanar'ın Gereksinimleri](Mehmet Yanar/Mehmet-Yanar-Gereksinimler.md)
