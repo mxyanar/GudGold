@@ -5,9 +5,14 @@ Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
 
 ## Kullanıcı İşlemleri
 
+### Kullanıcı Kayıt Olma
+
+API Metodu: POST /customers/register  
+Açıklama: Yeni kullanıcıların sisteme kayıt olmasını sağlar. Kullanıcı adı, email, adres ve şifre bilgileri alınarak hesap oluşturulur.
+
 1. **Kullanıcı Kayıt Olma**
-**API Metodu:** `POST /customers/register`  
-**Açıklama:** Yeni kullanıcıların sisteme kayıt olmasını sağlar. Kullanıcı adı, email, adres ve şifre bilgileri alınarak hesap oluşturulur.
+- **API Metodu:** `POST /customers/register`  
+- **Açıklama:** Yeni kullanıcıların sisteme kayıt olmasını sağlar. Kullanıcı adı, email, adres ve şifre bilgileri alınarak hesap oluşturulur.
 
 2. **Kullanıcı Giriş**
    **API Metodu:** `POST /customers/login`  
