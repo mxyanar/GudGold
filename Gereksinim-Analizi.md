@@ -1,6 +1,3 @@
-# Gereksinimler
-Aşağıda uygulamaya ait gereksinim analizi yapılıp listelenmiştir.
-
 # Tüm Gereksinimler
 
 ## Kullanıcı İşlemleri
