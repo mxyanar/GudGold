@@ -22,40 +22,40 @@
 
 ## Genel Sistem İşlemleri
    
-7. **Ürün Detay Görüntüleme**
+6. **Ürün Detay Görüntüleme**
 - **API Metodu:** `GET /products/{productId}`
 - **Açıklama:**  Seçilen bir ürünün detaylı bilgilerini görüntüler.
 
-8. **Ürün Arama**
+7. **Ürün Arama**
 - **API Metodu:** `GET /contents/search?q=...`
 - **Açıklama:** Kullanıcının başlık/anahtar kelimeye göre içerik aramasını sağlar.
    
-9. **Ürün Filtreleme**
+8. **Ürün Filtreleme**
 - **API Metodu:** `GET /products?filter=…`
 - **Açıklama:** Ürünlerin kategori, fiyat aralığı veya isim gibi kriterlere göre filtrelenmesini sağlar. Kullanıcılar aradıkları ürünü daha hızlı bulabilir.
 
-10. **Sepete Ürün Ekleme**
+9. **Sepete Ürün Ekleme**
 - **API Metodu:** `POST /cart`
 - **Açıklama:** Kullanıcının seçtiği ürünü sepete eklemesini sağlar. Ürün ID ve adet bilgisi gönderilir. Kullanıcı girişi yapılmadan da kullanılabilir.
 
-11. **Sepet Listeleme**
+10. **Sepet Listeleme**
 - **API Metodu:** `GET /cart`
 - **Açıklama:**  Kullanıcının sepetine eklediği ürünleri listeler. Kullanıcı girişi yapılmadan da kullanılabilir.
 
-12. **Sepetten Ürün Silme**
+11. **Sepetten Ürün Silme**
 - **API Metodu:** `DELETE /cart/{itemId}`
 - **Açıklama:** Sepetteki belirli bir ürünü sepetten kaldırır. Kullanıcı girişi yapılmadan da kullanılabilir.
 
 ## Yönetici İşlemleri
 
-13. **Ürün Güncelleme**
+12. **Ürün Güncelleme**
 - **API Metodu:** `PUT /admin/products/{productId}`
 - **Açıklama:** Sistemde mevcut bir ürünün bilgilerini düzenlemek için kullanılır.
 
-14. **Ürün Ekleme**
+13. **Ürün Ekleme**
 - **API Metodu:** `POST /products`
 - **Açıklama:** Sisteme yeni ürün eklenmesini sağlar. Ürün adı, fiyat, kategori ve stok bilgileri girilir.
 
-15. **Ürün Silme**
+14. **Ürün Silme**
 - **API Metodu:** ` DELETE /products/{productId}`
 - **Açıklama:** Sistemde bulunan bir ürünün silinmesini sağlar.  
