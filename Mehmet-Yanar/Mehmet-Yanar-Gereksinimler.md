@@ -4,7 +4,7 @@
 - **API Metodu:** `POST /customers/register`  
 - **Açıklama:** Yeni kullanıcıların sisteme kayıt olmasını sağlar. Kullanıcı adı, email, adres ve şifre bilgileri alınarak hesap oluşturulur.
 
-2. **Kullanıcı Giriş**
+2. **Kullanıcı Giriş Yapma**
 - **API Metodu:** `POST /customers/login`  
 - **Açıklama:** Kullanıcının email ve şifre ile sisteme giriş yapmasını sağlar. Başarılı girişte kimlik doğrulama için token döndürülür.
 
