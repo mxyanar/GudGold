@@ -15,12 +15,12 @@
   ```
 - **Response:** `201 Created` - Kullanıcı başarıyla oluşturuldu
 
-## 2. Giriş Yap
+## 2. Giriş Yapma
 - **Endpoint:** `POST /auth/login`
 - **Request Body:**
 ```json
 {
-  "email": "ferhatdemir@example.com",
+  "email": "mehmetyanar@example.com",
   "password": "Guvenli123!"
 }
 ```
