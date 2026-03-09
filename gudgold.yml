@@ -2,7 +2,7 @@ openapi: 3.0.3
 info:
   title: GudGold E-Ticaret API
   version: 1.0.0
-  description: |
+  description:
     GudGold e-ticaret platformu için geliştirilmiş RESTful API.
 
     API aşağıdaki modülleri içerir:
