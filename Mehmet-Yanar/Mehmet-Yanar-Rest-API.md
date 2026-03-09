@@ -13,7 +13,7 @@
     "lastName": "Yanar"
   }
   ```
-- **Response:** `201 Created` - Kullanıcı başarıyla oluşturuldu
+- **Response:** `201 Created` - Kullanıcı başarıyla oluşturuldu.
 
 ## 2. Kullanıcı Giriş Yapma
 - **Endpoint:** `POST /auth/login`
@@ -24,14 +24,14 @@
   "password": "Guvenli123!"
 }
 ```
-- **Response:** `200 OK` - Kullanıcı başarıyla giriş yaptı ve erişim tokenı oluşturuldu
+- **Response:** `200 OK` - Kullanıcı başarıyla giriş yaptı ve erişim tokenı oluşturuldu.
 
 ## 3. Kullanıcı Bilgilerini Görüntüleme
 - **Endpoint:** `GET /users/{userId}`
 - **Path Parameters:** 
   - `userId` (string, required) - Kullanıcı ID'si
 - **Authentication:** Bearer Token gerekli
-- **Response:** `200 OK` - Kullanıcı bilgileri başarıyla getirildi
+- **Response:** `200 OK` - Kullanıcı bilgileri başarıyla getirildi.
 
 ## 4. Kullanıcı Bilgilerini Güncelleme
 - **Endpoint:** `PUT /users/{userId}`
@@ -47,24 +47,24 @@
   }
   ```
 - **Authentication:** Bearer Token gerekli
-- **Response:** `200 OK` - Kullanıcı başarıyla güncellendi
+- **Response:** `200 OK` - Kullanıcı güncellendi.
 
 ## 5. Kullanıcı Kaydı Silme
 - **Endpoint:** `DELETE /users/{userId}`
 - **Path Parameters:** 
   - `userId` (string, required) - Kullanıcı ID'si
 - **Authentication:** Bearer Token gerekli (Yönetici yetkisi veya kendi hesabını silme yetkisi)
-- **Response:** `204 No Content` - Kullanıcı başarıyla silindi
+- **Response:** `204 No Content` - Kullanıcı silindi.
 
 ## 6. Ürün Detay Görüntüleme
 - **Endpoint:** `GET /products/{productId}`
 - **Path Parameters:** `productId`
-- **Response:** `200 OK`
+- **Response:** `200 OK` - Ürün Başarıyla Detaylandı.
 - 
 ## 7. Ürün Arama
 - **Endpoint:** `DELETE /products`
 - **Path Parameters:** `search` - Arama Kelimesi
-- **Response:** `200 OK` - Ürün Başarıyla Bulundu.
+- **Response:** `200 OK` - Ürün Bulundu.
 ```json
   {
   "data": [
@@ -73,6 +73,8 @@
       "name": "24 ayar altın",
       "price": 1250.50,
       "category": "Kolye",
+      "description": "Takı",
+      "createdAt": "2026-03-09T12:00:00Z"
       "stock": 50,
     }
   ],
@@ -90,7 +92,7 @@
   `category` - Kategori filtresi
   `minPrice` - (number, optional)
   `maxPrice` - (number, optional)
-- **Response:** `200 OK` - Ürün Başarıyla Bulundu.
+- **Response:** `200 OK` - Ürün Bulundu.
 
 ## 9. Sepete Ürün Ekleme
 - **Endpoint:** `POST /cart`
@@ -102,26 +104,49 @@
   "quantity": 1
 }
 ```
-- **Response:** `200 OK` (same as Sepeti Listeleme)
+- **Response:** `200 OK` - Ürün Sepete Eklendi.
 
 ## 10. Sepet Listeleme
 - **Endpoint:** `GET /cart`
 - **Authentication:** Bearer Token gerekli
-- **Response:** `200 OK`
+- **Response:** `200 OK` - Sepet Listelendi.
+```json
+{
+  "data": {
+    "id": "crt789",
+    "items": [
+      {
+        "id": "item123",
+        "product": {
+          "id": "prd123",
+          "name": "20 ayar altın bileklik",
+          "price": 1250.50,
+          "category": "Kolye",
+          "stock": 50,
+          "description": "Takı",
+          "createdAt": "2026-03-09T12:00:00Z"
+        },
+        "quantity": 2
+      }
+    ],
+    "totalPrice": 2501.00
+  }
+}
+```
 
 ## 11. Sepetten Ürün Silme
 - **Endpoint:** `DELETE /cart/{itemId}`
 - **Path Parameters:** `itemId` (string, required)
 - **Authentication:** Bearer Token gerekli.
-- **Response:** `204 No Content`
+- **Response:** `204 No Content` - Ürün Sepetten Silindi.
 
 ## 12. Admin - Ürün Güncelleme
 - **Endpoint:** `PUT /admin/products/{productId}`
 - **Path Parameters:** `productId`
 - **Authentication:** Bearer Token (admin) gerekli.
 - **Request Body:** (same as ürün ekleme)
-- **Response:** `200 OK`
-- 
+- **Response:** `200 OK` - Ürün Güncellendi.
+
 ## 13. Admin - Ürün Ekleme
 - **Endpoint:** `POST /admin/products`
 - **Authentication:** Bearer Token (admin) gerekli.
@@ -133,10 +158,11 @@
   "stock": 100,
   "description": "Takı"
 }
-- **Response:** `201 Created`
+```
+- **Response:** `201 Created` - Ürün Eklendi.
 
 ## 14. Admin - Ürün Silme
 - **Endpoint:** `DELETE /admin/products/{productId}`
 - **Path Parameters:** `productId`
 - **Authentication:** Bearer Token (admin) gerekli.
-- **Response:** `200 No Content`
+- **Response:** `200 No Content` - Ürün Silindi.
