@@ -55,3 +55,80 @@
   - `userId` (string, required) - Kullanıcı ID'si
 - **Authentication:** Bearer Token gerekli (Yönetici yetkisi veya kendi hesabını silme yetkisi)
 - **Response:** `204 No Content` - Kullanıcı başarıyla silindi
+
+## 6. Ürün Arama
+- **Endpoint:** `DELETE /products`
+- **Path Parameters:** `search` - Arama Kelimesi
+- **Response:** `200 OK` - Ürün Başarıyla Bulundu.
+```json
+  {
+  "data": [
+    {
+      "id": "prd123",
+      "name": "24 ayar altın",
+      "price": 1250.50,
+      "category": "Kolye",
+      "stock": 50,
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "limit": 10,
+    "total": 1
+  }
+}
+  ```
+
+## 7. Ürün Filtreleme
+- **Endpoint:** `GET /products`
+- **Query Parameters:**
+  `category` - Kategori filtresi
+  `minPrice` - (number, optional)
+  `maxPrice` - (number, optional)
+- **Response:** `200 OK` - Ürün Başarıyla Bulundu.
+
+## 8. Ürün Detay Görüntüleme
+- **Endpoint:** `GET /products/{productId}`
+- **Path Parameters:** `productId`
+- **Response:** `200 OK`
+
+## 9. Sepet Listeleme
+- **Endpoint:** `GET /cart`
+- **Authentication:** Bearer Token gerekli
+- **Response:** `200 OK`
+
+## 10. Sepete Ürün Ekleme
+- **Endpoint:** `POST /cart`
+- **Authentication:** Bearer Token gerekli
+- **Request Body:**
+```json
+{
+  "productId": "prd123",
+  "quantity": 1
+}
+```
+- **Response:** `200 OK` (same as Sepeti Listeleme)
+
+## 11. Sepetten Ürün Silme
+- **Endpoint:** `DELETE /cart/{itemId}`
+- **Path Parameters:** `itemId` (string, required)
+- **Authentication:** Bearer Token gerekli.
+- **Response:** `204 No Content`
+
+## 12. Admin - Ürün Ekleme
+- **Endpoint:** `POST /admin/products`
+- **Authentication:** Bearer Token (admin) gerekli.
+- **Response:** `201 Created`
+
+## 13. Admin - Ürün Güncelleme
+- **Endpoint:** `PUT /admin/products/{productId}`
+- **Path Parameters:** `productId`
+- **Authentication:** Bearer Token (admin) gerekli.
+- **Request Body:** (same as ürün ekleme)
+- **Response:** `200 OK`
+
+## 14. Admin - Ürün Silme
+- **Endpoint:** `DELETE /admin/products/{productId}`
+- **Path Parameters:** `productId`
+- **Authentication:** Bearer Token (admin) gerekli.
+- **Response:** `200 No Content`
