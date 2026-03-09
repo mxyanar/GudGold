@@ -49,14 +49,19 @@
 - **Authentication:** Bearer Token gerekli
 - **Response:** `200 OK` - Kullanıcı başarıyla güncellendi
 
-## 5. Kullanıcı Hesabı Silme
+## 5. Kullanıcı Kaydı Silme
 - **Endpoint:** `DELETE /users/{userId}`
 - **Path Parameters:** 
   - `userId` (string, required) - Kullanıcı ID'si
 - **Authentication:** Bearer Token gerekli (Yönetici yetkisi veya kendi hesabını silme yetkisi)
 - **Response:** `204 No Content` - Kullanıcı başarıyla silindi
 
-## 6. Ürün Arama
+## 6. Ürün Detay Görüntüleme
+- **Endpoint:** `GET /products/{productId}`
+- **Path Parameters:** `productId`
+- **Response:** `200 OK`
+- 
+## 7. Ürün Arama
 - **Endpoint:** `DELETE /products`
 - **Path Parameters:** `search` - Arama Kelimesi
 - **Response:** `200 OK` - Ürün Başarıyla Bulundu.
@@ -79,7 +84,7 @@
 }
   ```
 
-## 7. Ürün Filtreleme
+## 8. Ürün Filtreleme
 - **Endpoint:** `GET /products`
 - **Query Parameters:**
   `category` - Kategori filtresi
@@ -87,17 +92,7 @@
   `maxPrice` - (number, optional)
 - **Response:** `200 OK` - Ürün Başarıyla Bulundu.
 
-## 8. Ürün Detay Görüntüleme
-- **Endpoint:** `GET /products/{productId}`
-- **Path Parameters:** `productId`
-- **Response:** `200 OK`
-
-## 9. Sepet Listeleme
-- **Endpoint:** `GET /cart`
-- **Authentication:** Bearer Token gerekli
-- **Response:** `200 OK`
-
-## 10. Sepete Ürün Ekleme
+## 9. Sepete Ürün Ekleme
 - **Endpoint:** `POST /cart`
 - **Authentication:** Bearer Token gerekli
 - **Request Body:**
@@ -109,23 +104,28 @@
 ```
 - **Response:** `200 OK` (same as Sepeti Listeleme)
 
+## 10. Sepet Listeleme
+- **Endpoint:** `GET /cart`
+- **Authentication:** Bearer Token gerekli
+- **Response:** `200 OK`
+
 ## 11. Sepetten Ürün Silme
 - **Endpoint:** `DELETE /cart/{itemId}`
 - **Path Parameters:** `itemId` (string, required)
 - **Authentication:** Bearer Token gerekli.
 - **Response:** `204 No Content`
 
-## 12. Admin - Ürün Ekleme
-- **Endpoint:** `POST /admin/products`
-- **Authentication:** Bearer Token (admin) gerekli.
-- **Response:** `201 Created`
-
-## 13. Admin - Ürün Güncelleme
+## 12. Admin - Ürün Güncelleme
 - **Endpoint:** `PUT /admin/products/{productId}`
 - **Path Parameters:** `productId`
 - **Authentication:** Bearer Token (admin) gerekli.
 - **Request Body:** (same as ürün ekleme)
 - **Response:** `200 OK`
+- 
+## 13. Admin - Ürün Ekleme
+- **Endpoint:** `POST /admin/products`
+- **Authentication:** Bearer Token (admin) gerekli.
+- **Response:** `201 Created`
 
 ## 14. Admin - Ürün Silme
 - **Endpoint:** `DELETE /admin/products/{productId}`
