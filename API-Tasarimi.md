@@ -2,7 +2,7 @@
 
 **OpenAPI Spesifikasyon Dosyası:** [gudgold.yml](gudgold.yml)
 
-Bu doküman, Pick4Me projesi için OpenAPI Specification (OAS) 3.0 standardına göre hazırlanmış REST API tasarımını içermektedir.
+Bu doküman, GudGold projesi için OpenAPI Specification (OAS) 3.0 standardına göre hazırlanmış REST API tasarımını içermektedir.
 
 ## OpenAPI Specification
 
