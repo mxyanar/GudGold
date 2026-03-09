@@ -11,4 +11,16 @@
   "email": "mehmet@example.com",
   "password": "Guvenli123!"
 }
+```
 - **Response:** `201 Created`
+```json
+{
+  "data": {
+    "id": "usr123",
+    "name": "Mehmet Yanar",
+    "email": "mehmet@example.com",
+    "role": "user",
+    "createdAt": "2026-03-09T13:00:00Z"
+  }
+}
+```
