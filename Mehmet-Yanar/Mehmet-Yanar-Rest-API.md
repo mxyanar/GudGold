@@ -125,6 +125,14 @@
 ## 13. Admin - Ürün Ekleme
 - **Endpoint:** `POST /admin/products`
 - **Authentication:** Bearer Token (admin) gerekli.
+```json
+{
+  "name": "20 ayar altın bileklik",
+  "price": 1250.50,
+  "category": "Kolye",
+  "stock": 100,
+  "description": "Takı"
+}
 - **Response:** `201 Created`
 
 ## 14. Admin - Ürün Silme
