@@ -2,7 +2,7 @@
 
 **API Test Videosu:** [Link buraya eklenecek](https://example.com)
 
-## 1. Kayıt Olma
+## 1. Kullanıcı Kayıt Olma
 - **Endpoint:** `POST /auth/register`
 - **Request Body:** 
   ```json
@@ -15,7 +15,7 @@
   ```
 - **Response:** `201 Created` - Kullanıcı başarıyla oluşturuldu
 
-## 2. Giriş Yapma
+## 2. Kullanıcı Giriş Yapma
 - **Endpoint:** `POST /auth/login`
 - **Request Body:**
 ```json
