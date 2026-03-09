@@ -7,10 +7,10 @@
 - **Request Body:** 
   ```json
   {
-    "email": "kullanici@example.com",
-    "password": "Guvenli123!",
-    "firstName": "Ahmet",
-    "lastName": "Yılmaz"
+    "email": "gudgold@example.com",
+    "password": "Gudgold123!",
+    "firstName": "Mehmet",
+    "lastName": "Yanar"
   }
   ```
 - **Response:** `201 Created` - Kullanıcı başarıyla oluşturuldu
@@ -40,10 +40,10 @@
 - **Request Body:** 
   ```json
   {
-    "firstName": "Ahmet",
-    "lastName": "Yılmaz",
-    "email": "yeniemail@example.com",
-    "phone": "+905551234567"
+    "firstName": "Mehmet",
+    "lastName": "Yanar",
+    "email": "yenigudgold@example.com",
+    "phone": "+905555555555"
   }
   ```
 - **Authentication:** Bearer Token gerekli
